@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+@keyframes fadeindown { /* TEXT FADE_IN_DOWN */
+    0% {
+        opacity: 0;
+        transform: translate(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+@keyframes down{ /* TEXT DOWN */
+    from{
+        transform: translate(0, 0);
+    }
+    to{
+        transform: translate(0, 30px);
+    }
+}
+
+body { /* Background color */
+    background-color: white;
+}
+
+h1 { /* Very Big Title */
+    color: rgb(255, 109, 153);
+    text-align: center;
+    font-size: 470%;
+    animation: down 1s linear forwards;
+    /* animation: fadeindown 2s; */
+
+}
+
+h3 {
+    color: rgb(255, 95, 180);
+    text-align: center;
+}
+
+h4 {
+    font-size: 300%;
+}
+
+h5{
+    color: rgb(255, 109, 153);
+    text-align: center;
+}
+
+img{
+    border: 5px double violet;
+    width: 550px;
+}
